@@ -69,7 +69,7 @@
             </intent-filter>
         </receiver>
 
-        <!-- Quick Settings Tiles -->
+        <!-- Panel Mode's tile -->
         <service
             android:name="com.havoc.device.DeviceSettings.PanelModeTileService"
             android:icon="@drawable/ic_panel_tile"
@@ -81,6 +81,7 @@
             </intent-filter>
         </service>
 
+        <!-- HBM tile -->
         <service
             android:name="com.havoc.device.DeviceSettings.HBMModeTileService"
             android:icon="@drawable/ic_hbm_tile"
@@ -92,6 +93,7 @@
             </intent-filter>
         </service>
 
+        <!-- DC-Dimming tile -->
         <service
             android:name="com.havoc.device.DeviceSettings.DCModeTileService"
             android:icon="@drawable/ic_dc_tile"
@@ -103,6 +105,7 @@
             </intent-filter>
         </service>
 
+        <!-- Log tile -->
         <service
             android:name="com.havoc.device.DeviceSettings.LogTile"
             android:icon="@drawable/ic_qs_log"
@@ -112,6 +115,23 @@
                 <action
                     android:name="android.service.quicksettings.action.QS_TILE"/>
             </intent-filter>
+        </service>
+
+        <!-- FPS overlay tile -->
+        <service
+            android:name=".FPSTileService"
+            android:icon="@drawable/ic_fps"
+            android:label="@string/fps_info_title"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action
+                    android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+        </service>
+
+        <!-- FPS info service -->
+        <service android:name="com.havoc.device.DeviceSettings.FPSInfoService"
+                android:exported="false">
         </service>
 
         <!-- Search Provider -->
