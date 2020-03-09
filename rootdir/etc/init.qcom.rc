@@ -22,6 +22,10 @@ on boot
     write /data/misc/havoc/client_package_name 0
     chown cameraserver audio /data/misc/havoc/client_package_name
     chmod 0644 /data/misc/havoc/client_package_name
+	
+    # Smart charging
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chmod 0666 /sys/class/power_supply/battery/input_suspend
 
 on charger
     write /sys/class/backlight/panel0-backlight/brightness 150
