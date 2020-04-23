@@ -23,14 +23,6 @@
     <!-- Margin on the left side of the carrier text on Keyguard -->
     <dimen name="keyguard_carrier_text_margin">19dp</dimen>
 
-    <!-- Tri-state UI -->
-    <dimen name="tri_state_down_dialog_position">430.0px</dimen>
-    <dimen name="tri_state_down_dialog_position_l">265.0px</dimen>
-    <dimen name="tri_state_middle_dialog_position">265.0px</dimen>
-    <dimen name="tri_state_middle_dialog_position_l">265.0px</dimen>
-    <dimen name="tri_state_up_dialog_position">100.0px</dimen>
-    <dimen name="tri_state_up_dialog_position_l">265.0px</dimen>
-
     <!-- Volume panel -->
     <dimen name="volume_dialog_panel_transparent_padding_left">4dp</dimen>
 
