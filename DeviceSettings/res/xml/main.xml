@@ -57,6 +57,7 @@
 
         <ListPreference
             android:key="keycode_top_position"
+            android:icon="@drawable/ic_up_icon"
             android:dialogTitle="@string/notification_slider_selection_dialog_title"
             android:title="@string/notification_slider_top_position"
             android:summary="%s"
@@ -65,6 +66,7 @@
 
         <ListPreference
             android:key="keycode_middle_position"
+            android:icon="@drawable/ic_middle_icon"
             android:dialogTitle="@string/notification_slider_selection_dialog_title"
             android:title="@string/notification_slider_middle_position"
             android:summary="%s"
@@ -73,6 +75,7 @@
 
         <ListPreference
           android:key="keycode_bottom_position"
+          android:icon="@drawable/ic_down_icon"
           android:dialogTitle="@string/notification_slider_selection_dialog_title"
           android:title="@string/notification_slider_bottom_position"
           android:summary="%s"
