@@ -93,6 +93,9 @@
             </intent-filter>
         </service>
 
+        <!-- Auto HBM service -->
+        <service android:name="com.havoc.device.DeviceSettings.AutoHBMService" />
+
         <!-- DC-Dimming tile -->
         <service
             android:name="com.havoc.device.DeviceSettings.DCModeTileService"
