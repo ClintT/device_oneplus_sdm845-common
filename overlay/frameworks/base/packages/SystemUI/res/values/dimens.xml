@@ -23,7 +23,4 @@
     <!-- Margin on the left side of the carrier text on Keyguard -->
     <dimen name="keyguard_carrier_text_margin">19dp</dimen>
 
-    <!-- Volume panel -->
-    <dimen name="volume_dialog_panel_transparent_padding_left">4dp</dimen>
-
 </resources>
