@@ -4,7 +4,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
-LOCAL_OVERRIDES_PACKAGES := arcore CarrierSetup ConnMO DCMO Drive FM2 FilesPrebuilt GoogleTTS libqcomfm_jni obdm_stub qcom.fmradio Maps MyVerizonServices MaestroPrebuilt NfcNci NgaResources OnePlusCamera OBDM_Permissions PrebuiltGmail RecorderPrebuilt ScribePrebuilt Showcase SprintDM SprintHM SoundAmplifierPrebuilt SafetyHubPrebuilt TipsPrebuilt USCCDM VzwOmaTrigger VZWAPNLib YouTube YouTubeMusicPrebuilt
+LOCAL_OVERRIDES_PACKAGES := CarrierSetup ConnMO DCMO Drive FilesPrebuilt GoogleTTS libqcomfm_jni Maps NfcNci NgaResources OnePlusCamera PrebuiltGmail ScribePrebuilt SoundAmplifierPrebuilt SafetyHubPrebuilt TipsPrebuilt YouTube YouTubeMusicPrebuilt
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
