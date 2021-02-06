@@ -48,6 +48,11 @@
                     android:targetPackage="org.havoc.device.DeviceSettings"
                     android:targetClass="org.havoc.device.DeviceSettings.PanelSettingsActivity" />
         </Preference>
+
+        <Preference
+            android:icon="@drawable/ic_info_outline_24dp"
+            android:persistent="false"
+            android:summary="@string/hbm_mode_warning" />
     </PreferenceCategory>
 
     <PreferenceCategory
